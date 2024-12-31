@@ -2,6 +2,10 @@
 
 A Streamlit app using Google Gemini Flash Thinking multimodal model to intelligently extract and analyze user-specified entities from driver's licenses through natural language prompts, delivering structured results with step-by-step reasoning.
 
+## Demo
+
+![License Vision Analyzer Demo](assets/gemini-flash-thnking-entity-demo.gif)
+
 ## Quick Start
 
 ```bash
@@ -16,7 +20,7 @@ pip install -r requirements.txt
 echo "GEMINI_API_KEY=your_key_here" > .env
 
 # Run application
-streamlit run app.py
+streamlit run main.py
 ```
 
 ## Features
